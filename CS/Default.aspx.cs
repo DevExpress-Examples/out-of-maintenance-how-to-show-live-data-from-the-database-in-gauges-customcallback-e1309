@@ -30,7 +30,7 @@ namespace WebApplication1 {
                 gauge.DataBind();
             }
         }
-        protected void gauge_CustomCallback(object source, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+        protected void gauge_CustomCallback(object source, DevExpress.Web.CallbackEventArgsBase e) {
             UpdateGauge();
         }
     }

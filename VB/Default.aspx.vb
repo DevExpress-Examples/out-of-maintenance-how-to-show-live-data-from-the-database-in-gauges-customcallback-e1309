@@ -32,7 +32,7 @@ Namespace WebApplication1
 				gauge.DataBind()
 			End If
 		End Sub
-		Protected Sub gauge_CustomCallback(ByVal source As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+		Protected Sub gauge_CustomCallback(ByVal source As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 			UpdateGauge()
 		End Sub
 	End Class

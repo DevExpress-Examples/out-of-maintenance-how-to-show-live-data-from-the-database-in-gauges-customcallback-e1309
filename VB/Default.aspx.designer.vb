@@ -41,7 +41,7 @@ Namespace WebApplication1
 		''' Auto-generated field.
 		''' To modify move field declaration from designer file to code-behind file.
 		''' </remarks>
-		Protected timer As Global.DevExpress.Web.ASPxTimer.ASPxTimer
+		Protected timer As Global.DevExpress.Web.ASPxTimer
 
 		''' <summary>
 		''' SqlDataSource1 control.
